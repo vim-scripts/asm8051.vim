@@ -1,0 +1,6 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=1663
+
+To my surprise I could not find a syntax file for 8051 assembly.  So I started with vimscript#966 (which was apparently derived from the asm68k syntax) and derived this syntax file.
+
+The assembler directives and such are IAR specific b/c that is the toolset that I am currently using.  Feel free to expand with support for Keil and/or SDCC.
+
